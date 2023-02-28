@@ -91,7 +91,6 @@ a {
 }
 
 .banner-img>img {
-    max-width: 1440px;
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -118,26 +117,27 @@ a {
     max-width: 708px;
     width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
-
 .feature-img {
-    max-width: 342px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
-
 .feature-article {
     max-width: 537px;
     width: 100%;
     height: auto;
-}
-
-.section-title {
+    margin: 0;
+    padding: 0;
+} 
+.feature-title {
     font-weight: 700;
-    font-size: 3.5vw;
-    line-height: 4vw;
+    font-size: 2.35vw;
+    line-height: 2.75vw;
     padding-bottom: 1.25vw;
+    padding-right: 3.5VW;
 }
 
 .span-1 {
@@ -154,8 +154,8 @@ a {
 }
 
 .section-description {
-    font-size: 1.05vw;
-    line-height: 1.8vw;
+    font-size: 0.8vw;
+    line-height: 1.35vw;
     color: #727272;
     padding-bottom: 1.7vw;
     padding-right: 3vw;
@@ -167,33 +167,39 @@ a {
 .experience-section {
     display: flex;
     justify-content: center;
-    column-gap: 2.8vw;
+    column-gap: 7.6vw;
     margin: 0 auto;
     padding: 6.77vw 12.5vw 0;
 }
-.experience-info-container {
-    max-width: 568px;
+.experience-left-container {
+    max-width: 30.5vw;
     width: 100%;
-    height: auto;
-    margin: 2.08vw auto;
+    max-height: 51.7vw;
+    height: 100%;
+    margin: 2vw 0 0;
 }
-
-.experience-info-container>h2 {
+.section-title {
+    font-weight: 700;
+    font-size: 2.25vw;
+    line-height: 2.75vw;
+    padding-bottom: 1.25vw;
+}
+.experience-left-container>h2 {
     border-left: 5px solid #FF900E;
     padding-left: 1.25vw;
     padding-bottom: 0;
 }
-
-.experience-info-container>p {
+.experience-left-container>p {
     padding-top: 1.6vw;
+    padding-bottom: 0.8vw;
     padding-right: 0;
 }
 .experience-card {
-    max-width: 568px;
+    max-width: 30.5vw;
     width: 100%;
-    height: auto;
-    max-height: 100%;
-    margin: 1vw 0 1.25vw;
+    max-height: 9vw;
+    height: 100%;
+    margin: 1vw 0 0;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -202,20 +208,56 @@ a {
     font-weight: 600;
     font-size: 1.25vw;
     color: #131313;
-    padding: 1.6vw 1.6vw 0;
+    padding: 1.35vw 1.6vw 0;
 }
 .experience-card>p {
-    padding: 0.8vw 1.6vw 1.6vw;
+    font-size: 0.8vw;
+    line-height: 1.35vw;
+    padding: 0.5vw 1.6vw 1.35vw;
 }
-.experience-img-container{
-    width: 800px;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-}
-.experience-img{
+
+.experience-right-container{
     max-width: 708px;
     width: 100%;
-    height: auto;
+    max-height: 1053px;
+    height: 100%;
     margin: 0;
+}
+.experience-img-container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+.experience-img-container>img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.experience-box {
+    max-width: 342px;
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+    margin: -6.4vw 0 0 -4.8vw;
+    position: relative;
+}
+.experience-box>button {
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 2.4vw 2.2vw;
+}
+.exp-btn-text-1 {
+    font-weight: 700;
+    font-size: 3.385vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+.exp-btn-text-2 {
+    font-weight: 500;
+    font-size: 1.3vw;
+    text-align: center;
+    color: #FFFFFF;
 }
