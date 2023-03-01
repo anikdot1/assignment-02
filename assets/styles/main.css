@@ -120,18 +120,21 @@ a {
     margin: 0;
     padding: 0;
 }
+
 .feature-img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 .feature-article {
     max-width: 537px;
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
-} 
+}
+
 .feature-title {
     font-weight: 700;
     font-size: 2.35vw;
@@ -171,6 +174,7 @@ a {
     margin: 0 auto;
     padding: 6.77vw 12.5vw 0;
 }
+
 .experience-left-container {
     max-width: 30.5vw;
     width: 100%;
@@ -178,22 +182,26 @@ a {
     height: 100%;
     margin: 2vw 0 0;
 }
+
 .section-title {
     font-weight: 700;
     font-size: 2.25vw;
     line-height: 2.75vw;
     padding-bottom: 1.25vw;
 }
+
 .experience-left-container>h2 {
     border-left: 5px solid #FF900E;
     padding-left: 1.25vw;
     padding-bottom: 0;
 }
+
 .experience-left-container>p {
     padding-top: 1.6vw;
     padding-bottom: 0.8vw;
     padding-right: 0;
 }
+
 .experience-card {
     max-width: 30.5vw;
     width: 100%;
@@ -204,31 +212,35 @@ a {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
+
 .experience-card>h3 {
     font-weight: 600;
     font-size: 1.25vw;
     color: #131313;
     padding: 1.35vw 1.6vw 0;
 }
+
 .experience-card>p {
     font-size: 0.8vw;
     line-height: 1.35vw;
     padding: 0.5vw 1.6vw 1.35vw;
 }
 
-.experience-right-container{
+.experience-right-container {
     max-width: 708px;
     width: 100%;
     max-height: 1053px;
     height: 100%;
     margin: 0;
 }
-.experience-img-container{
+
+.experience-img-container {
     width: 100%;
     height: 100%;
     margin: 0;
     position: relative;
 }
+
 .experience-img-container>img {
     width: 100%;
     height: 100%;
@@ -243,21 +255,83 @@ a {
     margin: -6.4vw 0 0 -4.8vw;
     position: relative;
 }
+
 .experience-box>button {
     background: #FF900E;
     border-radius: 8px;
     border: none;
     padding: 2.4vw 2.2vw;
 }
+
 .exp-btn-text-1 {
     font-weight: 700;
     font-size: 3.385vw;
     text-align: center;
     color: #FFFFFF;
 }
+
 .exp-btn-text-2 {
     font-weight: 500;
     font-size: 1.3vw;
     text-align: center;
     color: #FFFFFF;
+}
+
+/* ------------------------
+some-facts-section styles 
+---------------------------*/
+.some-facts-section {
+    max-width: 72.4vw;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 6.77vw 15.1vw 0 12.5vw;
+}
+
+.some-facts-section>p {
+    max-width: 28.23vw;
+    width: 100%;
+    height: auto;
+}
+
+.infographic {
+    display: flex;
+    flex-direction: row;
+    max-width: 69.75vw;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    gap: 6.5vw;
+}
+
+.info-card {
+    max-width: 12.6vw;
+    width: 100%;
+    height: 12.4vw;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.info-icon {
+    max-width: 2.35vw;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2.35vw 5.125vw 0.52vw;
+    ;
+}
+
+.info-count {
+    font-weight: 600;
+    font-size: 2.35vw;
+    text-align: center;
+    color: #424242;
+    padding-bottom: 0.5vw;
+}
+
+.info-title {
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: center;
+    color: #727272;
 }
