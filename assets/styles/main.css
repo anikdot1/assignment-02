@@ -329,7 +329,8 @@ some-facts-section styles
     padding-bottom: 0.5vw;
 }
 
-.info-title {
+.info-title,
+.footer-description {
     font-weight: 600;
     font-size: 1vw;
     text-align: center;
@@ -339,16 +340,19 @@ some-facts-section styles
 /* --------------------
 Sponsors section styles
 --------------------- */
-.sponsors {
+.sponsors,
+.footer {
     max-width: 75vw;
     width: 100%;
     height: auto;
     margin: 0 auto;
     padding-top: 9.375vw;
 }
+
 .sponsors>h1 {
     text-align: center;
 }
+
 .sponsors>p {
     max-width: 28.23vw;
     width: 100%;
@@ -357,13 +361,31 @@ Sponsors section styles
     margin: 0 auto;
     padding: 0;
 }
+
 .sponsors-logo-container {
     display: flex;
     justify-content: space-between;
     padding-top: 2.6vw;
 }
+
 .sponsors-logo {
     max-width: 100%;
     max-height: 2.6vw;
     height: 100%;
+}
+
+/* ---------------------
+    footer styles
+---------------------- */
+.footer {
+    margin-top: 6.8vw;
+    margin-bottom: 11.25vw;
+    padding: 0;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-description {
+    text-align: center;
+    padding: 1.56vw 0;
 }
