@@ -13,7 +13,7 @@
 navbar section styles
 ---------------------- */
 header {
-    background: rgba(255, 144, 14, 0.1);
+    background: #ff900e1a;
 }
 
 .navbar {
@@ -31,7 +31,7 @@ header {
 }
 
 .menu li,
-a {
+.menu a {
     font-weight: 500;
     font-size: 18px;
     color: #424242;
@@ -45,7 +45,9 @@ a {
     align-items: center;
 }
 
-/* banner styles */
+/*-----------------------
+     banner styles 
+-------------------------*/
 .banner-section {
     margin: 0 auto;
     padding: 6.05vw 12.5vw 0;
@@ -281,10 +283,7 @@ a {
 some-facts-section styles 
 ---------------------------*/
 .some-facts-section {
-    max-width: 72.4vw;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+    margin: 0;
     padding: 6.77vw 15.1vw 0 12.5vw;
 }
 
@@ -310,6 +309,11 @@ some-facts-section styles
     height: 12.4vw;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    transition: transform 1s;
+}
+
+.info-card:hover {
+    transform: rotate(360deg);
 }
 
 .info-icon {
@@ -329,8 +333,7 @@ some-facts-section styles
     padding-bottom: 0.5vw;
 }
 
-.info-title,
-.footer-description {
+.info-title {
     font-weight: 600;
     font-size: 1vw;
     text-align: center;
@@ -372,6 +375,57 @@ Sponsors section styles
     max-width: 100%;
     max-height: 2.6vw;
     height: 100%;
+    filter: grayscale(100%);
+}
+
+/* ---------------------
+    Contact us styles
+------------------------ */
+.contact-us-section {
+    background: #ff900e1a;
+    margin: 10vw auto 0;
+    padding: 4vw 6vw;
+}
+
+.contact-us-container {
+    max-width: 60vw;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 2vw;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.contact-us-form {
+    display: flex;
+    margin: 0;
+    padding: 2vw 0;
+}
+
+.input-data {
+    margin: 0;
+    padding: 0 1.5vw;
+    width: 100%;
+}
+
+.input-data input,
+.input-data textarea {
+    font-size: 1.25vw;
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+    padding: 0.5vw;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.submit {
+    padding: 1vw 3vw;
+}
+.submit>a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 /* ---------------------
@@ -386,6 +440,9 @@ Sponsors section styles
 }
 
 .footer-description {
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: #727272;
     text-align: center;
     padding: 1.56vw 0;
 }

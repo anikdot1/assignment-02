@@ -19,7 +19,9 @@
 </head>
 
 <body>
+    <!-- header section -->
     <header>
+        <!-- navbar start -->
         <nav class="navbar">
             <div class="logo">
                 <h1>G3 Architects</h1>
@@ -33,13 +35,24 @@
                 </ul>
             </div>
         </nav>
-        <!-- This alternate section is for sm devices media query -->
+        <!-- navbar end -->
+        <!-- This navbar alternate section is for sm devices media query -->
         <nav class="navbar-alternate">
-            <div class="menu">
-                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            <div class="nav-header">
+                <div class="logo">
+                    <h1>G3 Architects</h1>
+                </div>
+                <div class="menu-ham">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
             </div>
-            <div class="logo">
-                <h1>G3 Architects</h1>
+            <div class="menu-alternate">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
             </div>
         </nav>
         <!-- header banner section -->
@@ -60,7 +73,10 @@
             </div>
         </section>
     </header>
+    <!-- Header end -->
+    <!-- Main start -->
     <main>
+        <!-- our feature section -->
         <section class="our-feature-section">
             <div class="feature-img-container">
                 <img src="./assets/images/team1.png" alt="" class="feature-img">
@@ -75,9 +91,12 @@
                 <p class="section-description">Finding an architect with the skills needed to make your dream house a
                     reality can be daunting at first. However, with a little bit of research and determination, you can
                     find the finest architecture firms in the country in no time.</p>
-                <button class="btn-pri"><a href="#"></a>Explore More</button>
+                <div class="btn-2">
+                    <button class="btn-pri"><a href="#"></a>Explore More</button>
+                </div>
             </article>
         </section>
+        <!-- experience section left and right separated -->
         <section class="experience-section">
             <article class="experience-left-container">
                 <h2 class="section-title">Features you will love & enjoy</h2>
@@ -110,6 +129,7 @@
                         materials research have allowed architects to explore new concepts and design.</p>
                 </div>
             </article>
+            <!-- Right side -->
             <aside class="experience-right-container">
                 <div class="experience-img-container">
                     <img src="./assets/images/architect.png" alt="">
@@ -149,6 +169,7 @@
                 </div>
             </div>
         </section>
+        <!-- sponsors section -->
         <section class="sponsors">
             <h1 class="section-title">Our Sponsors</h1>
             <p class="section-description">
@@ -162,7 +183,41 @@
                 <img src="./assets/sponsors/figma.png" alt="" class="sponsors-logo">
             </div>
         </section>
+        <!-- contact us section added extra -->
+        <section class="contact-us-section">
+            <div class="contact-us-container">
+                <div class="section-title">Let us know your query</div>
+                <form>
+                   <div class="contact-us-form">
+                      <div class="input-data">
+                         <input type="text" placeholder="First Name" required>  
+                      </div>
+                      <div class="input-data">
+                         <input type="text" placeholder="Last Name" required>
+                      </div>
+                   </div>
+                   <div class="contact-us-form">
+                      <div class="input-data">
+                         <input type="email" placeholder="Email Address" required>
+                      </div>
+                      <div class="input-data">
+                         <input type="number" placeholder="Contact No" required>
+                      </div>
+                   </div>
+                   <div class="contact-us-form">
+                      <div class="input-data">
+                         <textarea rows="3" cols="10" placeholder="Write your message" required></textarea>
+                      </div>
+                   </div>
+                   <div class="btn-submit">
+                    <button class="btn-pri submit"><a href="#">Submit</a></button>
+                   </div>
+                </form>
+            </div>
+        </section>
     </main>
+    <!-- main section end here -->
+    <!-- Footer section -->
     <footer class="footer">
         <p class="footer-description">
             All rights reserved copyright@2023 startup landing page design
